@@ -33,12 +33,17 @@
  color: white;
  border: 1px solid white;
  width: 15rem;
+ height: 3rem;
  text-align: center;
  background: rgba(0,0,0,0.4);
- font-size: 30px;
+ font-size: 25px;
  top: 20rem;
- left: 35rem;
+ left: 33rem;
  animation: fadeInLeft 2s ease-in-out;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
 }
 
 @keyframes fadeInLeft {
